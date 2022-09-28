@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+  
+}
+body{
+  font-family: sans-serif;
+}
+h1{
+
+text-align: center;
+font-size: 45px;
+}
+
+.section {
+  position: relative;
+  padding: 15px;
+  width: 80%;
+}
+.section div {
+  background-color: rgb(207, 196, 196);
+  border: 4px solid black;
+  width: 100%;
+  margin: 10px;
+
+}
+
+p {
+  position: relative;
+  clear: right;
+  font-weight: bold;
+  overflow: auto;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#title1{
+color: black;
+background-color:#e798a4 ;
+float: right;
+margin: -3px -3px 0px;
+border: 4px solid black;
+text-align: center;
+font-size: 125%;
+font-weight: bold;
+width: 150px;
+}
+
+#title2{
+  color: white;
+background-color:rgb(206, 68, 50) ;
+float: right;
+margin: -3px -3px 0px;
+border: 4px solid black;
+text-align: center;
+font-size: 125%;
+font-weight: bold;
+width: 150px;
+}
+
+#title3{
+  color: black;
+  background-color: rgb(223, 212, 121);
+  float: right;
+  margin: -3px -3px 0px;
+  border: 4px solid black;
+  text-align: center;
+  font-size: 125%;
+  font-weight: bold;
+  width: 150px; 
+}
+.paragraph  {
+  padding: 5px;
+  border: none;
+  background-color:  rgb(207, 196, 196);
+  font-family: Helvetica;
+  color: black;
+  margin: 3px ;
+  height: 150px;
+  overflow: auto;
+}
+   /*desktop version*/
+   @media (min-width: 992px) {
+    .colmn-lg-4  {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/*tablet version*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .colmn-md-6 {
+        float: left;
+        width: 50%;
+
+    }
+
+    .colmn-md-12 {
+        float: left;
+        width: 100%;
+
+    }
+}
+
+/*mobile version*/
+@media (max-width: 767px) {
+    .colmn-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
