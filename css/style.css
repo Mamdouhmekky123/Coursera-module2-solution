@@ -78,7 +78,7 @@ width: 150px;
   height: 150px;
   overflow: auto;
 }
-   /*desktop version*/
+  
    @media (min-width: 992px) {
     .colmn-lg-4  {
         float: left;
@@ -86,14 +86,13 @@ width: 150px;
     }
 }
 
-/*tablet version*/
+
 @media (min-width: 768px) and (max-width: 991px) {
     .colmn-md-6 {
         float: left;
         width: 50%;
 
     }
-
     .colmn-md-12 {
         float: left;
         width: 100%;
@@ -101,7 +100,6 @@ width: 150px;
     }
 }
 
-/*mobile version*/
 @media (max-width: 767px) {
     .colmn-sm-12 {
         float: left;
